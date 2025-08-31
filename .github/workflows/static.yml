@@ -38,6 +38,18 @@ jobs:
         with:
           src-root: './docs'
           build-root: './docs-html'
+      - name: Show built files and create .nojekyll
+        run: |
+          if [ -d docs-html ]; then
+            echo "Contents of docs-html:"
+            ls -la docs-html || true
+            echo "Contents of docs-html/assets (if exists):"
+            ls -la docs-html/assets || true
+            touch docs-html/.nojekyll
+          else
+            echo "Build output docs-html not found"
+            exit 1
+          fi
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

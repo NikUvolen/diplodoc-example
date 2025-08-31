@@ -1,6 +1,8 @@
 allowHTML: true
 lang: 'ru'
 
+// TODO: Добавить favicon
+
 resources:
   style:
     - assets/style/custom.css

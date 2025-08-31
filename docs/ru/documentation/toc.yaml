@@ -1,0 +1,11 @@
+title: Подраздел документации
+href: index.yaml
+items:
+  - name: Руководство по установке
+    href: installation.md
+  - name: Структура проекта
+    href: structure.md
+  - name: API Справочник
+    href: api_reference.md
+  - name: Структура БД
+    href: db_structure.md

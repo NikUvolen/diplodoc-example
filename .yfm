@@ -1,0 +1,9 @@
+allowHTML: true
+langs: ['ru', 'en']
+
+docs-viewer:
+  langs: ['en','ru']
+
+resources:
+  style:
+    - _assets/style/custom.css

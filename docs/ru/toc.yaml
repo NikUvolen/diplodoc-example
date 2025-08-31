@@ -1,30 +1,25 @@
-title: Шаблон проекта документации
-href: index.yaml
-
-# navigation:
-#   logo:
-#     url: 'https://diplodoc.com'
-#     dark:
-#       icon: 'https://www.istu.edu/Sys/Module/Page/v2/view/default/img/logo95_white.svg'
-#       text: 'Diplodoc'
-#       class: 'logo-image'
-#     light:
-#       icon: 'https://www.istu.edu/Sys/Module/Page/v2/view/default/img/logo95_white.svg'
-#       text: 'Diplodoc'
-#       class: 'logo-image'
-#   header:
-#     leftItems:
-#       - text: 'Relative Link'
-#         type: 'link'
-#         url: './ru/settings'
-#       - text: 'Absolute Link'
-#         type: 'link'
-#         url: 'https://diplodoc.com/docs/ru/project/'
-#     rightItems:
-#       - text: 'Other Link'
-#         type: 'link'
-#         url: 'ru/contribution'
-#       - type: controls
+navigation:
+  logo:
+    href: index.yaml
+    dark:
+      icon: './images/dark-logo.png'
+      text: 'Job ISTU'
+    light:
+      icon: './images/white-logo.png'
+      text: 'Job ISTU'
+  header:
+    leftItems:
+      - text: 'Relative Link'
+        type: 'link'
+        url: './ru/settings'
+      - text: 'Absolute Link'
+        type: 'link'
+        url: 'https://diplodoc.com/docs/ru/project/'
+    rightItems:
+      - text: 'Other Link'
+        type: 'link'
+        url: 'ru/contribution'
+      - type: controls
 items: 
   - name: О проекте
     href: about.md

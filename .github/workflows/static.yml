@@ -38,6 +38,14 @@ jobs:
         with:
           src-root: './docs'
           build-root: './docs-html'
+      - name: Install node & rebuild with allow-custom-resources (ensures yfm flag)
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+      - name: Install deps
+        run: npm ci
+      - name: Run yfm with custom-resources
+        run: npx yfm --input docs --output docs-html --allow-custom-resources
       - name: Show built files and create .nojekyll
         run: |
           if [ -d docs-html ]; then

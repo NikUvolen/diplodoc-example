@@ -1,8 +1,5 @@
 allowHTML: true
-langs: ['ru', 'en']
-
-docs-viewer:
-  langs: ['en','ru']
+lang: 'ru'
 
 resources:
   style:

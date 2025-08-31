@@ -32,9 +32,3 @@ items:
     include:
       path: documentation/toc.yaml
       mode: link
-  - name: Другая страница
-    href: anotherpage.md
-  - name: Подраздел
-    include:
-      path: sub-section/toc.yaml
-      mode: link

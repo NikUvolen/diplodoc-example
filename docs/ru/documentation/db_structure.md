@@ -1,7 +1,5 @@
-
----
 # Основные схемы объектов:
----
+
 * **Auth:**
   - username (string, writeOnly)
   - password (string, writeOnly)

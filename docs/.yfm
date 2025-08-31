@@ -3,4 +3,4 @@ lang: 'ru'
 
 resources:
   style:
-    - _assets/style/custom.css
+    - assets/style/custom.css

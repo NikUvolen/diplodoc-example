@@ -1,24 +1,24 @@
+href: index.yaml
+
 navigation:
   logo:
     href: index.yaml
+    urlTitle: 'Вернуться на главную'
     dark:
       icon: './images/dark-logo.png'
-      text: 'Job ISTU'
+      text: 'Job ISTU docs'
     light:
       icon: './images/white-logo.png'
-      text: 'Job ISTU'
+      text: 'Job ISTU docs'
   header:
     leftItems:
       - text: 'Relative Link'
         type: 'link'
-        url: './ru/settings'
+        url: './ru/about.html'
       - text: 'Absolute Link'
         type: 'link'
         url: 'https://diplodoc.com/docs/ru/project/'
     rightItems:
-      - text: 'Other Link'
-        type: 'link'
-        url: 'ru/contribution'
       - type: controls
 items: 
   - name: О проекте

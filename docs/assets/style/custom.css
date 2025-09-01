@@ -205,3 +205,20 @@ a.dc-breadcrumbs__text.dc-breadcrumbs__text_link:hover {
     margin: 8px;
     padding-right: 5px;
 }
+
+.pc-card-base-block {
+    background-color: var(--g-color-private-dark-1000-solid);
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Для темной темы */
+.g-root_theme_dark .pc-card-base-block {
+    background-color: #1f2d3a;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.pc-card-base-block_border_shadow {
+    box-shadow: 0 4px 12px rgba(23, 35, 59, 0.15);
+    border: 1px solid var(--g-color-private-dark-200-solid);
+}

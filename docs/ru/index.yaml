@@ -1,10 +1,46 @@
-title: Шаблон документации
-links:
-  - title: О проекте
-    href: about.md
-  - title: документация
-    # include: documentation/toc.yaml
-  - title: Структура YFM на главной странице
-    href: anotherpage.md
-  - title: Подраздел на главной странице
-    href: sub-section/
+# title: Шаблон документации
+# links:
+#   - title: О проекте
+#     href: about.md
+#   - title: документация
+#     # include: documentation/toc.yaml
+#   - title: Структура YFM на главной странице
+#     href: anotherpage.md
+#   - title: Подраздел на главной странице
+#     href: sub-section/
+
+
+blocks:
+  - type: card-layout-block
+    colSizes:
+      all: 12
+      xl: 4
+      sm: 6
+      md: 4
+    children:
+
+      - type: basic-card
+        title: 
+          text: О проекте
+          textSize: s
+        text: |
+          [Описание](about.md)
+
+      - type: basic-card
+        title: 
+          text: Документация
+          textSize: s
+        text: |
+          [Руководство по установке](documentation/installation.md)
+
+          [Структура проекта](documentation/structure.md)
+
+          [API справочник](documentation/api_reference.md)
+
+          [Структура БД](documentation/db_structure.md)
+
+  - type: content-layout-block
+    size: s
+    textContent:
+      text: "\_"
+animated: true            

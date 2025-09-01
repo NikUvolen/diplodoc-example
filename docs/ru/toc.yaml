@@ -2,8 +2,8 @@ href: index.yaml
 
 navigation:
   logo:
-    # url: "../practika-ISTU-docs/ru"
-    url: "../ru" # для локальной разработки
+    url: "../practika-ISTU-docs/ru"
+    # url: "../ru" # для локальной разработки
     urlTitle: 'Вернуться на главную'
     dark:
       icon: './images/dark-logo.png'
